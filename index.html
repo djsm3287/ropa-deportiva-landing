@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stride Sports — Tienda de running en Venezuela</title>
+  <meta name="description" content="Zapatos deportivos y accesorios para correr, elegidos por corredores. Ven a la tienda, pruébatelos y encuentra tu par. Precios en USD.">
+  <meta name="theme-color" content="#C2462B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_VE">
+  <meta property="og:title" content="Stride Sports — Cada zancada cuenta.">
+  <meta property="og:description" content="Zapatos deportivos y accesorios para correr. Ven a la tienda y encuentra tu par.">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#inicio" aria-label="Stride Sports, inicio">STRIDE<span> SPORTS</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menú</button>
+      <nav class="main-nav" id="menu-principal" aria-label="Principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#comunidad">Comunidad</a>
+        <a href="#visitanos">Visítanos</a>
+        <a class="btn btn-ink btn-sm" href="#" data-wa="Hola Stride Sports, quiero hacer una consulta.">Escríbenos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- Hero -->
+    <section class="hero container" id="inicio">
+      <p class="eyebrow">01 — Tienda de running en Venezuela</p>
+      <div class="hero-top">
+        <h1 class="hero-title">Cada zancada <span>cuenta.</span></h1>
+        <div class="hero-side">
+          <p class="lead">Zapatos deportivos y accesorios para correr, elegidos por corredores. Ven a probártelos: te ayudamos a encontrar tu par.</p>
+          <div class="btn-row">
+            <a class="btn btn-track" href="#catalogo">Ver catálogo</a>
+            <a class="btn btn-line" href="#visitanos">Visítanos</a>
+          </div>
+        </div>
+      </div>
+      <figure class="media media-hero" data-file="hero.webp">
+        <img src="assets/images/hero.webp" alt="Corredor en plena zancada sobre una pista de atletismo color ladrillo al atardecer" width="1920" height="1080" fetchpriority="high">
+      </figure>
+    </section>
+
+    <!-- Lanes band -->
+    <section class="lanes-wrap container" aria-label="Lo que encuentras en Stride">
+      <ol class="lanes">
+        <li class="lane"><span class="lane-num">1</span>Zapatos para calle, pista y montaña</li>
+        <li class="lane"><span class="lane-num">2</span>Análisis de pisada en tienda</li>
+        <li class="lane"><span class="lane-num">3</span>Accesorios para cada kilómetro</li>
+        <li class="lane"><span class="lane-num">4</span>Club de corredores cada semana</li>
+      </ol>
+    </section>
+
+    <!-- Catalog -->
+    <section class="catalog container" id="catalogo" aria-labelledby="catalogo-titulo">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">02 — Catálogo</p>
+          <h2 class="section-title" id="catalogo-titulo">Elige tu par.</h2>
+          <p class="section-text">Una selección corta de lo que tenemos en tienda. ¿Te gustó algo? Escríbenos y te lo apartamos para que lo pruebes.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filtrar productos">
+          <button class="chip" type="button" data-filter="all" aria-pressed="true">Todos</button>
+          <button class="chip" type="button" data-filter="shoes" aria-pressed="false">Zapatillas</button>
+          <button class="chip" type="button" data-filter="acc" aria-pressed="false">Accesorios</button>
+        </div>
+      </div>
+
+      <ul class="product-grid" id="productos">
+        <li class="product" data-cat="shoes">
+          <figure class="media media-product" data-file="shoe-road.webp">
+            <img src="assets/images/shoe-road.webp" alt="Zapato de running Ritmo, blanco con detalles color ladrillo" width="800" height="1000" loading="lazy">
+            <span class="tag">Calle</span>
+          </figure>
+          <div class="product-body">
+            <div class="product-top"><h3>Ritmo</h3><p class="price">$120</p></div>
+            <p class="product-desc">Amortiguación generosa para tus rodajes de todos los días.</p>
+            <p class="spec">Drop 8 mm · 270 g</p>
+            <a class="btn btn-ink btn-block" href="#" data-wa="Hola Stride Sports, me interesa el zapato Ritmo ($120). ¿Lo tienen en mi talla?" aria-label="Lo quiero: Ritmo, escribir por WhatsApp">Lo quiero →</a>
+          </div>
+        </li>
+        <li class="product" data-cat="shoes">
+          <figure class="media media-product" data-file="shoe-race.webp">
+            <img src="assets/images/shoe-race.webp" alt="Zapato de competencia Sprint Pro, crema con detalles naranja" width="800" height="1000" loading="lazy">
+            <span class="tag">Competencia</span>
+          </figure>
+          <div class="product-body">
+            <div class="product-top"><h3>Sprint Pro</h3><p class="price">$160</p></div>
+            <p class="product-desc">Ligera y reactiva, hecha para tu próxima marca personal.</p>
+            <p class="spec">Drop 6 mm · 210 g</p>
+            <a class="btn btn-ink btn-block" href="#" data-wa="Hola Stride Sports, me interesa el zapato Sprint Pro ($160). ¿Lo tienen en mi talla?" aria-label="Lo quiero: Sprint Pro, escribir por WhatsApp">Lo quiero →</a>
+          </div>
+        </li>
+        <li class="product" data-cat="shoes">
+          <figure class="media media-product" data-file="shoe-trail.webp">
+            <img src="assets/images/shoe-trail.webp" alt="Zapato de montaña Sendero, verde oliva y naranja con suela de tacos" width="800" height="1000" loading="lazy">
+            <span class="tag">Montaña</span>
+          </figure>
+          <div class="product-body">
+            <div class="product-top"><h3>Sendero</h3><p class="price">$135</p></div>
+            <p class="product-desc">Agarre firme para tierra, piedra y barro.</p>
+            <p class="spec">Tacos 5 mm · 300 g</p>
+            <a class="btn btn-ink btn-block" href="#" data-wa="Hola Stride Sports, me interesa el zapato Sendero ($135). ¿Lo tienen en mi talla?" aria-label="Lo quiero: Sendero, escribir por WhatsApp">Lo quiero →</a>
+          </div>
+        </li>
+        <li class="product" data-cat="shoes">
+          <figure class="media media-product" data-file="shoe-training.webp">
+            <img src="assets/images/shoe-training.webp" alt="Zapato de entrenamiento Base, negro y crema con suela plana" width="800" height="1000" loading="lazy">
+            <span class="tag">Gimnasio</span>
+          </figure>
+          <div class="product-body">
+            <div class="product-top"><h3>Base</h3><p class="price">$95</p></div>
+            <p class="product-desc">Suela plana y estable para fuerza y entrenamiento funcional.</p>
+            <p class="spec">Drop 4 mm · 280 g</p>
+            <a class="btn btn-ink btn-block" href="#" data-wa="Hola Stride Sports, me interesa el zapato Base ($95). ¿Lo tienen en mi talla?" aria-label="Lo quiero: Base, escribir por WhatsApp">Lo quiero →</a>
+          </div>
+        </li>
+        <li class="product" data-cat="acc">
+          <figure class="media media-product" data-file="acc-bottle.webp">
+            <img src="assets/images/acc-bottle.webp" alt="Botella flexible para correr, translúcida con tapa naranja" width="800" height="1000" loading="lazy">
+            <span class="tag">Hidratación</span>
+          </figure>
+          <div class="product-body">
+            <div class="product-top"><h3>Botella flexible</h3><p class="price">$18</p></div>
+            <p class="product-desc">Se aplasta al vaciarse y cabe en cualquier bolsillo.</p>
+            <p class="spec">500 ml · Sin BPA</p>
+            <a class="btn btn-ink btn-block" href="#" data-wa="Hola Stride Sports, me interesa la Botella flexible ($18). ¿Está disponible?" aria-label="Lo quiero: Botella flexible, escribir por WhatsApp">Lo quiero →</a>
+          </div>
+        </li>
+        <li class="product" data-cat="acc">
+          <figure class="media media-product" data-file="acc-socks.webp">
+            <img src="assets/images/acc-socks.webp" alt="Par de medias técnicas para correr a rayas crema y ladrillo" width="800" height="1000" loading="lazy">
+            <span class="tag">Medias</span>
+          </figure>
+          <div class="product-body">
+            <div class="product-top"><h3>Medias técnicas</h3><p class="price">$12</p></div>
+            <p class="product-desc">Acolchadas donde importa, para kilómetros sin ampollas.</p>
+            <p class="spec">Tallas S · M · L</p>
+            <a class="btn btn-ink btn-block" href="#" data-wa="Hola Stride Sports, me interesan las Medias técnicas ($12). ¿Qué tallas tienen?" aria-label="Lo quiero: Medias técnicas, escribir por WhatsApp">Lo quiero →</a>
+          </div>
+        </li>
+        <li class="product" data-cat="acc">
+          <figure class="media media-product" data-file="acc-vest.webp">
+            <img src="assets/images/acc-vest.webp" alt="Chaleco de hidratación negro con detalles naranja y dos botellas al frente" width="800" height="1000" loading="lazy">
+            <span class="tag">Hidratación</span>
+          </figure>
+          <div class="product-body">
+            <div class="product-top"><h3>Chaleco de hidratación</h3><p class="price">$60</p></div>
+            <p class="product-desc">Para fondos largos y montaña, con dos botellas al frente.</p>
+            <p class="spec">5 l · 2 botellas</p>
+            <a class="btn btn-ink btn-block" href="#" data-wa="Hola Stride Sports, me interesa el Chaleco de hidratación ($60). ¿Está disponible?" aria-label="Lo quiero: Chaleco de hidratación, escribir por WhatsApp">Lo quiero →</a>
+          </div>
+        </li>
+        <li class="product" data-cat="acc">
+          <figure class="media media-product" data-file="acc-cap.webp">
+            <img src="assets/images/acc-cap.webp" alt="Gorra ligera para correr color crema con visera naranja por debajo" width="800" height="1000" loading="lazy">
+            <span class="tag">Gorras</span>
+          </figure>
+          <div class="product-body">
+            <div class="product-top"><h3>Gorra ligera</h3><p class="price">$22</p></div>
+            <p class="product-desc">Transpirable y de secado rápido para correr bajo el sol.</p>
+            <p class="spec">Talla única</p>
+            <a class="btn btn-ink btn-block" href="#" data-wa="Hola Stride Sports, me interesa la Gorra ligera ($22). ¿Está disponible?" aria-label="Lo quiero: Gorra ligera, escribir por WhatsApp">Lo quiero →</a>
+          </div>
+        </li>
+      </ul>
+      <p class="catalog-note" aria-live="polite" id="catalogo-estado">Mostrando 8 productos. Tallas y colores disponibles en tienda. Precios en USD.</p>
+    </section>
+
+    <!-- Why -->
+    <section class="why" aria-labelledby="por-que">
+      <div class="container">
+        <p class="eyebrow eyebrow-light">03 — Por qué Stride</p>
+        <h2 class="section-title why-title" id="por-que">No vendemos zapatos. Te ayudamos a correr mejor.</h2>
+        <ol class="why-grid">
+          <li><p class="why-lane">Carril 1</p><h3>Análisis de pisada</h3><p>Te vemos trotar y te recomendamos el zapato que va con tu forma de pisar.</p></li>
+          <li><p class="why-lane">Carril 2</p><h3>Pruébalos antes</h3><p>Trota en la tienda con el par que te interesa, sin apuros y sin compromiso.</p></li>
+          <li><p class="why-lane">Carril 3</p><h3>Te atiende un corredor</h3><p>Hablamos tu idioma: kilómetros, ritmos, carreras y montaña.</p></li>
+          <li><p class="why-lane">Carril 4</p><h3>Te lo apartamos</h3><p>Escríbenos por WhatsApp y guardamos tu talla para que pases a buscarla.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Community -->
+    <section class="community container" id="comunidad" aria-labelledby="comunidad-titulo">
+      <figure class="media media-wide" data-file="community.webp">
+        <img src="assets/images/community.webp" alt="Grupo de corredores del club Stride trotando juntos en un parque al atardecer" width="1600" height="1200" loading="lazy">
+      </figure>
+      <div class="community-text">
+        <p class="eyebrow">04 — Comunidad</p>
+        <h2 class="section-title" id="comunidad-titulo">Corre con nosotros.</h2>
+        <p class="section-text">El club Stride sale todas las semanas desde la tienda. Ritmo conversable, todos los niveles y nadie se queda atrás.</p>
+        <dl class="info-list">
+          <div><dt>Día</dt><dd class="placeholder">[Día por confirmar]</dd></div>
+          <div><dt>Hora</dt><dd class="placeholder">[Hora por confirmar]</dd></div>
+          <div><dt>Salida</dt><dd>Desde la tienda</dd></div>
+        </dl>
+        <a class="btn btn-track" href="#" data-wa="Hola Stride Sports, quiero unirme al club de corredores.">Únete por WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- Visit -->
+    <section class="visit" id="visitanos" aria-labelledby="visitanos-titulo">
+      <div class="container visit-inner">
+        <div class="visit-text">
+          <p class="eyebrow eyebrow-dark">05 — Visítanos</p>
+          <h2 class="section-title" id="visitanos-titulo">Ven a la tienda.</h2>
+          <p class="section-text">Pruébate tus zapatos, pregunta lo que quieras y llévate el par correcto.</p>
+          <dl class="info-list info-list-dark">
+            <div class="stack"><dt>Dirección</dt><dd class="placeholder">[Dirección por confirmar], Venezuela</dd></div>
+            <div class="stack"><dt>Horario</dt><dd class="placeholder">[Horario por confirmar]</dd></div>
+            <div class="stack"><dt>Teléfono / WhatsApp</dt><dd class="placeholder">+58 [Teléfono por confirmar]</dd></div>
+          </dl>
+          <div class="btn-row">
+            <!-- TODO: replace href with the store's Google Maps link -->
+            <a class="btn btn-track" href="#" id="como-llegar">Cómo llegar</a>
+            <a class="btn btn-line-light" href="#" data-wa="Hola Stride Sports, quiero hacer una consulta.">Escríbenos</a>
+          </div>
+        </div>
+        <div class="visit-media">
+          <figure class="media media-wide media-dark" data-file="store.webp">
+            <img src="assets/images/store.webp" alt="Interior de la tienda Stride Sports con una pared de zapatos de running" width="1600" height="1200" loading="lazy">
+          </figure>
+          <div class="map-placeholder" role="img" aria-label="Mapa pendiente">Mapa — [Ubicación por confirmar]</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-mark" aria-hidden="true">STRIDE<span> SPORTS</span></p>
+      <div class="footer-row">
+        <p>Cada zancada cuenta. · Tienda de running en Venezuela</p>
+        <nav class="social" aria-label="Redes sociales">
+          <!-- TODO: replace with real social links -->
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#" data-wa="Hola Stride Sports, quiero hacer una consulta.">WhatsApp</a>
+        </nav>
+        <p>Demo de portafolio — tienda ficticia.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
